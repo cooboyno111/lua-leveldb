@@ -14,8 +14,10 @@ Most of the basic options and functions are supported right now, but still not t
 
 Installation
 ------------
-for ubuntu
+for ubuntu dev
+
 sudo apt-get install lua5.1
+
 sudo apt-get install liblua5.1-0-dev
 
 
