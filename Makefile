@@ -12,7 +12,6 @@ TARGET=lualeveldb.so
 
 # Add a custom version below (5.1/5.2/5.3)
 LUA_VERSION=5.1
-LUA_DIR=/usr/local
 LUA_LIBDIR=/usr/lib/lua/$(LUA_VERSION)
 LUA_INCDIR=/usr/include/lua$(LUA_VERSION)
 LUA_SHAREDIR=/usr/share/lua/$(LUA_VERSION)
