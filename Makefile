@@ -12,7 +12,7 @@ TARGET=lualeveldb.so
 
 # Add a custom version below (5.1/5.2/5.3)
 LUA_VERSION=5.1
-LUA_LIBDIR=$(STAGING_DIR)/usr/lib/lua
+LUA_LIBDIR=$(STAGING_DIR)/usr/lib
 LUA_INCDIR=$(STAGING_DIR)/usr/include
 
 $(TARGET): $(OBJS)
