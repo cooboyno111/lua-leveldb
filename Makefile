@@ -3,7 +3,7 @@ CXX=g++
 CFLAGS=-Wall -fPIC -shared
 CXXFLAGS=-Wall -fPIC -shared
 VPATH=src
-LDLIBS=-lpthread -L. -lleveldb
+LDLIBS=-lpthread -lleveldb
 CDEPS=src/*.h
 CXXDEPS=src/*.hpp
 OBJS=src/lua.o src/batch.o src/db.o src/iter.o src/opt.o src/utils.o src/lua-leveldb.o
@@ -12,7 +12,7 @@ TARGET=lualeveldb.so
 
 # Add a custom version below (5.1/5.2/5.3)
 LUA_VERSION=5.1
-LUA_LIBDIR=$(STAGING_DIR)/usr/lib
+LUA_LIBDIR=$(STAGING_DIR)/usr/lib/lua
 LUA_INCDIR=$(STAGING_DIR)/usr/include
 
 $(TARGET): $(OBJS)
